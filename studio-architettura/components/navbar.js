@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <>
-      <div className="flex justify-center border bg-white fixed w-full z-100 border-gray-300">
+      <div className="flex justify-center border bg-gray-400 fixed w-full z-100 border-gray-300">
         <div className="flex justify-around gap-2">
           <div>
             <img
@@ -33,6 +33,9 @@ export default function Navbar() {
             <h1 className="font-bold">Progetti</h1>
           </div>
           <div>
+            <a href="/progetti"
+          className="mt-8 bg-white hover:bg-gray-300 border-2 border-black font-semibold text-md px-5 py-2 rounded-full flex items-center gap-2 transition-all duration-300" >
+          </a> 
             <h1 className="font-bold">Chi siamo</h1>
           </div>
           <div>

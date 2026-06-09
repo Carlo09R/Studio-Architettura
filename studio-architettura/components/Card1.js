@@ -11,7 +11,7 @@ export default function Card1(C1) {
 
             <div className="flex justify-start z-10">
           <a href="/progetti"
-          className={"mt-8 bg-gray-400 hover:bg-gray-300 border-2 border-black font-semibold text-md px-5 py-2 rounded-full flex items-center gap-2 transition-all duration-300" + C1.coloreb}>
+          className={"mt-8 bg-white hover:bg-gray-300 border-2 border-black font-semibold text-md px-5 py-2 rounded-full flex items-center gap-2 transition-all duration-300" + C1.coloreb}>
             {C1.bottone}
           </a>
           </div>
