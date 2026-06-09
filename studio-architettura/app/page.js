@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar";
 export default function Home() {
   return (
    <>
-   <Card1 immagine=" bg-[url(/images/Card1.jpg)]" sottotitolo="" titolo="Studio Orrizzonti" bottone="Chi siamo" colore=" text-black" coloreb=" text-black"/>
+   <Card1 immagine=" bg-[url(/images/Card1.jpg)]" sottotitolo="Progettiamo lo spazio, immaginiamo il futuro." titolo="Studio Orrizzonti"  bottone="Chi siamo" colore=" text-black" coloreb=" text-black"/>
    <Navbar></Navbar>
    </>
   );

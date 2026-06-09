@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import Navbar from "@/components/navbar";
 import Card2progetti from "@/components/Card2progetti";
-export default function Progetti() {
+export default function Chisiamo() {
   return (
    <>
   

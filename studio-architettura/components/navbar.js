@@ -33,10 +33,10 @@ export default function Navbar() {
             <h1 className="font-bold">Progetti</h1>
           </div>
           <div>
-            <a href="/progetti"
+            <a href="/Chisiamo"
           className="mt-8 bg-white hover:bg-gray-300 border-2 border-black font-semibold text-md px-5 py-2 rounded-full flex items-center gap-2 transition-all duration-300" >
           </a> 
-            <h1 className="font-bold">Chi siamo</h1>
+            <h1 className="font-bold">Chisiamo</h1>
           </div>
           <div>
             <h1 className="font-bold">Contatti</h1>
