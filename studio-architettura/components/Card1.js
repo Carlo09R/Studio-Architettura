@@ -8,10 +8,12 @@ export default function Card1(C1) {
             <h1 className={"text-5xl font-extrabold" + C1.colore}>
               {C1.titolo}
               </h1>
+
             <div className="flex justify-start z-10">
-          <button className={"mt-8 bg-white hover:bg-gray-300 border-2 border-black font-semibold text-md px-5 py-2 rounded-full flex items-center gap-2 transition-all duration-300" + C1.coloreb}>
+          <a href="/progetti"
+          className={"mt-8 bg-gray-400 hover:bg-gray-300 border-2 border-black font-semibold text-md px-5 py-2 rounded-full flex items-center gap-2 transition-all duration-300" + C1.coloreb}>
             {C1.bottone}
-          </button>
+          </a>
           </div>
         </div>
       </div>
